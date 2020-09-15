@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.portfolio-background {
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/TŁO/ap2.png);
+  background-repeat: no-repeat;
+  background-position: 50% 70%;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  position: relative;
+}
+.portfolio-background::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  z-index: 1;
+}
+
+.portfolio-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  z-index: 2
+  // overflow: auto;
+}
+
+.portfolo-card {
+  margin: 0 30px 30px 30px;
+  height: 300px;
+  width: 300px;
+  cursor: pointer;
+  overflow: hidden;
+  // border: 1px solid black;
+  animation: fade-in 1s;
+  border-radius: 25px;
+  -webkit-box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.6);
+  -moz-box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.6);
+  box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.6);
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1
+  }
+}
+
+.min-h1 {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.container-images {
+  width: 100%;
+  height: 100%;
+}
+
+#salon-image {
+  background-image: url('./images/SALON/5A-min.jpg');
+}
+
+#biuro-image {
+  background-image: url('./images/BIURO/5-min.jpg');
+}
+
+#restauracja-image {
+  background-image: url('./images/RESTAURACJA/6-min.jpg');
+}
+
+#garderoba-image {
+  background-image: url('./images/GARDEROBA/garderoba4-min.png');
+}
+
+#toaletka-image {
+  background-image: url('./images/TOALETKA/2.png');
+}
+
+#kurtyny-image {
+  background-image: url('./images/KURTYNY/kurtyna1-min.png');
+}
+
+.img-effect {
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  transition: 0.3s ease-out;
+}
+
+.img-effect:hover {
+  transform: scale(1.2);
+}
+
+.portfolio-text-container-1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-text-container {
+  padding: 0 10px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Kod otwierający okno ze zdjęciami (zmiana klasy po naciśnieciu) */
+
+.show-photos {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  // background-color: black;
+  background-image: url(./images/TŁO/ap2.png);
+  background-repeat: no-repeat;
+  background-position: 50% 70%;
+  background-size: cover;
+}
+
+.show-photos-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.show-photos-container::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  z-index: 1;
+}
+
+.title-container {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  top: 0;
+  position: sticky;
+  z-index: 3
+}
+
+.show-photos-container-title {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+}
+
+.salon-photos-container {
+  height: 85%;
+  width: 100%;
+  overflow: auto;
+  --ms--overflow-style: none;
+  scrollbar-width: none;
+  z-index: 2
+}
+
+.salon-photos-container::-webkit-scrollbar {
+  display: none;
+}
+
+// .flex-container {
+//   height: 100%;
+//   width: 100%;
+//   overflow: hidden;
+//   display: flex;
+//   flex-wrap: wrap;
+//   padding: 10px;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-box-container {
+  overflow: hidden;
+  height: 300px;
+  width: 300px;
+  margin: 30px;
+  animation: fade-in 1s;
+  // border: 1px solid black;
+  border-radius: 25px;
+  -webkit-box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.6);
+  -moz-box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.6);
+  box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.6);
+}
+
+.img-box-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.closingButton {
+  top: 20px;
+  left: 20px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  background: none;
+  border: none;
+  &:hover {
+    color: white;
+  }
+}
+
+.closingButton i {
+  outline: none;
+}
+
+
+
+
+/* full screen photo */
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.5 ease-out;
+  z-index: 4;
+
+}
+
+.full-img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 70%;
+  background-size: contain;
+  transition: all 0.5 ease-out;
+  transform: scale(0.9);
+}
+
+
+@media screen and (max-width: 1300px) {
+
+  .portfolio-background {
+    height: auto;
+  }
+
+  .title-container {
+    height: 5%;
+    width: 100%;
+    display: flex;
+  }
+
+  .salon-photos-container {
+    height: 95%;
+    width: 100%;
+  }
+
+  .show-photos-container-title {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button-container {
+    width: 40%;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal {
+    visibility: hidden;
+  }
+
+  .portfolio-container {
+    overflow: none;
+  }
+
+  .closingButton {
+    color: white;
+  }
+}

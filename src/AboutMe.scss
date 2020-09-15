@@ -1,0 +1,177 @@
+
+.about-background {
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/TŁO/1-min.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 70%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.text-container {
+  width: 100%;
+}
+
+.about-container {
+  height: 100%;
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.about-card {
+  height: 100%;
+  width: 1000px;
+  display: flex;
+  background-color: black;
+  animation: fade-in 1s;
+  border-radius: 25px;
+  -webkit-box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.6);
+  -moz-box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.6);
+  box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.6);
+}
+
+.photo-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.about-text-container {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: rgb(197, 161, 176);
+}
+
+img {
+  height: auto;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+}
+
+#photo-id {
+  position: relative;
+  animation-name: into, fade-in;
+  animation-duration: 2s;
+}
+
+@keyframes into {
+  0% { top: -500px; }
+  100% { top: 0px; }
+}
+
+.text-appear {
+  position: relative;
+  animation: textInto, fade-in;
+  animation-duration: 2s;
+}
+
+@keyframes textInto {
+  0% { bottom: -500px; }
+  100% { bottom: 0px; }
+}
+
+#sign {
+  float: right;
+  font-size: 30px;
+}
+
+.text-appear p {
+  font-size: 20px;
+}
+
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+
+
+  .about-background {
+    padding: 0px;
+  }
+
+  .about-container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .about-card {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .about-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+  }
+
+  p {
+    color: rgb(197, 161, 176);
+  }
+
+  .photo-container {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  img {
+    height: 80%;
+    width: 65%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  #photo-id {
+    position: relative;
+    animation-name: into, fade-in;
+    animation-duration: 1s;
+  }
+
+  @keyframes into {
+    0% { left: -500px; }
+    100% { left: 0px; }
+  }
+
+  .text-appear {
+    position: relative;
+    animation: textInto, fade-in;
+    animation-duration: 1s;
+  }
+
+  @keyframes textInto {
+    0% { right: -500px; }
+    100% { right: 0px; }
+  }
+
+  #sign {
+    float: right;
+    font-size: 20px;
+  }
+
+  .text-appear p {
+    font-size: 15px;
+  }
+}

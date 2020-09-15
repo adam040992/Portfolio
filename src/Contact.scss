@@ -1,0 +1,82 @@
+.about-container {
+  height: 100%;
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.contact-about-card {
+  height: 100%;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  animation: fade-in 1s;
+  border-radius: 25px;
+  -webkit-box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.6);
+  -moz-box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.6);
+  box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.6);
+}
+
+.contact-text-container {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-bottom {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#right-appear {
+  position: relative;
+  animation: right-into, fade-in;
+  animation-duration: 2s;
+}
+
+@keyframes right-into {
+  0% { right: -500px; }
+  100% { right: 0px; }
+}
+
+.left-appear {
+  fort-size: 20px;
+  position: relative;
+  animation: left-into, fade-in;
+  animation-duration: 2s;
+}
+
+@keyframes left-into {
+  0% { left: -500px; }
+  100% { left: 0px; }
+}
+
+.contact-first-elemet {
+  // animation-delay: 0.5s;
+}
+
+.contact-second-element {
+  // animation-delay: 0.7s;
+}
+
+@media screen and (max-width: 600px) {
+
+  .about-background {
+    padding: 0px;
+  }
+
+  .about-container {
+    width: 100%;
+    padding: 20px;
+  }
+}
