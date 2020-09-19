@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6db552874c31422e8e7748908424c831",
+    "revision": "cc3a4e25720d4a1060c98ddbcf8f9085",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "5c391e3091737b75e51f",
-    "url": "/Portfolio/static/css/main.d75dbbbd.chunk.css"
+    "revision": "f037d91401b601680b3c",
+    "url": "/Portfolio/static/css/main.bf93b0ec.chunk.css"
   },
   {
-    "revision": "126e4674abbf04ddfa99",
-    "url": "/Portfolio/static/js/2.f2deb8b6.chunk.js"
+    "revision": "7487c5e11c17e665cbb0",
+    "url": "/Portfolio/static/js/2.1bfa208c.chunk.js"
   },
   {
     "revision": "4224b32d50aca7d0b4f248bf0384ed4f",
-    "url": "/Portfolio/static/js/2.f2deb8b6.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.1bfa208c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5c391e3091737b75e51f",
-    "url": "/Portfolio/static/js/main.0bc812ea.chunk.js"
+    "revision": "f037d91401b601680b3c",
+    "url": "/Portfolio/static/js/main.3de25976.chunk.js"
   },
   {
     "revision": "23ff405d518e183fcdd1",
@@ -32,16 +32,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/1-min.70c6ce44.png"
   },
   {
-    "revision": "86334467d2597738c4c839433938df8c",
-    "url": "/Portfolio/static/media/1-min.86334467.jpg"
-  },
-  {
     "revision": "8820320cbc728fcf7e479b386d91e800",
     "url": "/Portfolio/static/media/1-min.8820320c.jpg"
   },
   {
     "revision": "fc2841a47d67683b8ca6f5ba548fd8bd",
     "url": "/Portfolio/static/media/1-min.fc2841a4.png"
+  },
+  {
+    "revision": "c5d08cc07e41cce2983f384c1b184d79",
+    "url": "/Portfolio/static/media/1.c5d08cc0.jpg"
   },
   {
     "revision": "4686c736b77ed430b5a75fd46d16ac10",
@@ -180,11 +180,31 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/main-site.711c00d7.jpg"
   },
   {
+    "revision": "74bf7e0ef0fbd4723970c37ff50cafa8",
+    "url": "/Portfolio/static/media/plansza_Piksa.74bf7e0e.jpg"
+  },
+  {
     "revision": "e8b5ba74083388c85fb0bced502307a2",
     "url": "/Portfolio/static/media/łazienkaB1.e8b5ba74.jpg"
   },
   {
+    "revision": "2a449f693664a7fe2069928325254fa6",
+    "url": "/Portfolio/static/media/łazienkaB2.2a449f69.jpg"
+  },
+  {
+    "revision": "97d5c3224f1256718b8525c813400019",
+    "url": "/Portfolio/static/media/łazienkaB3.97d5c322.jpg"
+  },
+  {
     "revision": "9ec6e63d407026370bb80fc550bae978",
     "url": "/Portfolio/static/media/łazienkaZ1.9ec6e63d.jpg"
+  },
+  {
+    "revision": "03cc9d30732e9a27a2db8f1714b7d5d6",
+    "url": "/Portfolio/static/media/łazienkaZ2.03cc9d30.jpg"
+  },
+  {
+    "revision": "73f185e580e81711a6723144d0fbe3fe",
+    "url": "/Portfolio/static/media/łazienkaZ3.73f185e5.jpg"
   }
 ]);

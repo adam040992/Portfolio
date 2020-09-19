@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d75dbbbd.chunk.css",
-    "main.js": "/Portfolio/static/js/main.0bc812ea.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.0bc812ea.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.bf93b0ec.chunk.css",
+    "main.js": "/Portfolio/static/js/main.3de25976.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.3de25976.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.6c0d41e5.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.6c0d41e5.js.map",
-    "static/js/2.f2deb8b6.chunk.js": "/Portfolio/static/js/2.f2deb8b6.chunk.js",
-    "static/js/2.f2deb8b6.chunk.js.map": "/Portfolio/static/js/2.f2deb8b6.chunk.js.map",
+    "static/js/2.1bfa208c.chunk.js": "/Portfolio/static/js/2.1bfa208c.chunk.js",
+    "static/js/2.1bfa208c.chunk.js.map": "/Portfolio/static/js/2.1bfa208c.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.1f482505ac686aa4f1e0102227010688.js": "/Portfolio/precache-manifest.1f482505ac686aa4f1e0102227010688.js",
+    "precache-manifest.347a9a0a6103ebb2c18b7fd542e63535.js": "/Portfolio/precache-manifest.347a9a0a6103ebb2c18b7fd542e63535.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.d75dbbbd.chunk.css.map": "/Portfolio/static/css/main.d75dbbbd.chunk.css.map",
-    "static/js/2.f2deb8b6.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.f2deb8b6.chunk.js.LICENSE.txt",
+    "static/css/main.bf93b0ec.chunk.css.map": "/Portfolio/static/css/main.bf93b0ec.chunk.css.map",
+    "static/js/2.1bfa208c.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.1bfa208c.chunk.js.LICENSE.txt",
     "static/media/1-min.jpg": "/Portfolio/static/media/1-min.8820320c.jpg",
     "static/media/1-min.png": "/Portfolio/static/media/1-min.fc2841a4.png",
-    "static/media/AboutMe.scss": "/Portfolio/static/media/1-min.86334467.jpg",
+    "static/media/1.jpg": "/Portfolio/static/media/1.c5d08cc0.jpg",
     "static/media/10-min.jpg": "/Portfolio/static/media/10-min.4686c736.jpg",
     "static/media/11-min.jpg": "/Portfolio/static/media/11-min.a60a37db.jpg",
     "static/media/2-min.jpg": "/Portfolio/static/media/2-min.e13b2afc.jpg",
-    "static/media/Portfolio.scss": "/Portfolio/static/media/kurtyna1-min.929b1b8e.png",
+    "static/media/Portfolio.scss": "/Portfolio/static/media/łazienkaB1.e8b5ba74.jpg",
     "static/media/3-min.jpg": "/Portfolio/static/media/3-min.c107efa5.jpg",
     "static/media/3bb-min.png": "/Portfolio/static/media/3bb-min.24b0194c.png",
     "static/media/4-min.jpg": "/Portfolio/static/media/4-min.b245fae6.jpg",
@@ -39,13 +39,17 @@
     "static/media/kurtyna5-min.jpg": "/Portfolio/static/media/kurtyna5-min.93b9657f.jpg",
     "static/media/kurtyna6-min.jpg": "/Portfolio/static/media/kurtyna6-min.5c1dba6b.jpg",
     "static/media/main-site.jpg": "/Portfolio/static/media/main-site.711c00d7.jpg",
-    "static/media/łazienkaB1.jpg": "/Portfolio/static/media/łazienkaB1.e8b5ba74.jpg",
-    "static/media/łazienkaZ1.jpg": "/Portfolio/static/media/łazienkaZ1.9ec6e63d.jpg"
+    "static/media/plansza_Piksa.jpg": "/Portfolio/static/media/plansza_Piksa.74bf7e0e.jpg",
+    "static/media/łazienkaB2.jpg": "/Portfolio/static/media/łazienkaB2.2a449f69.jpg",
+    "static/media/łazienkaB3.jpg": "/Portfolio/static/media/łazienkaB3.97d5c322.jpg",
+    "static/media/łazienkaZ1.jpg": "/Portfolio/static/media/łazienkaZ1.9ec6e63d.jpg",
+    "static/media/łazienkaZ2.jpg": "/Portfolio/static/media/łazienkaZ2.03cc9d30.jpg",
+    "static/media/łazienkaZ3.jpg": "/Portfolio/static/media/łazienkaZ3.73f185e5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6c0d41e5.js",
-    "static/js/2.f2deb8b6.chunk.js",
-    "static/css/main.d75dbbbd.chunk.css",
-    "static/js/main.0bc812ea.chunk.js"
+    "static/js/2.1bfa208c.chunk.js",
+    "static/css/main.bf93b0ec.chunk.css",
+    "static/js/main.3de25976.chunk.js"
   ]
 }
