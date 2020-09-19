@@ -7,6 +7,7 @@ class Contact extends Component {
       <div className='about-container'>
         <div className='contact-about-card'>
           <div className='contact-text-container'>
+
             <div id='right-appear'>
               <p>Serdecznie Zapraszam do Kontaktu</p>
             </div>

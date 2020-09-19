@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import ReactDOM from "react-dom";
 import { storage } from './firebase';
 import './Portfolio.scss';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 import salon1 from './images/SALON/4b-min.jpg';
 import salon2 from './images/SALON/5A-min.jpg';
@@ -41,8 +43,16 @@ import kurtyny4 from './images/KURTYNY/kurtyna4-min.png';
 import kurtyny5 from './images/KURTYNY2/kurtyna5-min.jpg';
 import kurtyny6 from './images/KURTYNY2/kurtyna6-min.jpg';
 
+import lazienka1 from './images/ŁAZIENKI/łazienkaB1.jpg';
+import lazienka2 from './images/ŁAZIENKI/łazienkaB2.jpg';
+import lazienka3 from './images/ŁAZIENKI/łazienkaB3.jpg';
+import lazienka4 from './images/ŁAZIENKI/łazienkaZ1.jpg';
+import lazienka5 from './images/ŁAZIENKI/łazienkaZ2.jpg';
+import lazienka6 from './images/ŁAZIENKI/łazienkaZ3.jpg';
 
-
+import toaletka1 from './images/TOALETKA/1.jpg';
+import toaletka2 from './images/TOALETKA/2.png';
+import toaletka3 from './images/TOALETKA/plansza_Piksa.jpg';
 
 class Portfolio extends Component {
   constructor(props) {
@@ -54,6 +64,29 @@ class Portfolio extends Component {
       garderoba: 'none',
       toaletka: 'none',
       kurtyny: 'none',
+      lazienki: 'none',
+
+      salonTip: false,
+      biuroTip: false,
+      restauracjaTip: false,
+      garderobaTip: false,
+      toaletkaTip: false,
+      kurtynyTip: false,
+      lazienkiTip: false,
+      
+      toaletka_elements: [
+        toaletka1,
+        toaletka2,
+        toaletka3
+      ],
+      lazienki_elements: [
+        lazienka1,
+        lazienka2,
+        lazienka3,
+        lazienka4,
+        lazienka5,
+        lazienka6,
+      ],
       biuro_elements: [
         biuro1,
         biuro2,
@@ -105,30 +138,51 @@ class Portfolio extends Component {
 
 
   OpenSalon = (e) => {
-    this.setState({salon: 'block'})
+    this.setState({salon: 'block'});
+    window.scrollTo({top: 0, behavior: 'smooth'});
   }
 
   OpenBiuro = (e) => {
-    this.setState({biuro: 'block'})
+    this.setState({biuro: 'block'});
+    window.scrollTo({top: 0, behavior: 'smooth'});
   }
 
   OpenRestauracja = (e) => {
     this.setState({restauracja: 'block'});
+    window.scrollTo({top: 0, behavior: 'smooth'});
   }
 
   OpenGarderoba = (e) => {
-    this.setState({garderoba: 'block'})
+    this.setState({garderoba: 'block'});
+    window.scrollTo({top: 0, behavior: 'smooth'});
   }
   OpenToaletka = (e) => {
-    this.setState({toaletka: 'block'})
+    this.setState({toaletka: 'block'});
+    window.scrollTo({top: 0, behavior: 'smooth'});
   }
   OpenKurtyny = (e) => {
-    this.setState({kurtyny: 'block'})
+    this.setState({kurtyny: 'block'});
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
+  OpenLazienki = (e) => {
+    this.setState({lazienki: 'block'});
+    window.scrollTo({top: 0, behavior: 'smooth'});
   }
 
   ShowModal = (e) => {
     this.setState({modal: !this.state.modal});
     this.setState({target: e.target.src});
+  }
+
+  ShowTip = (e) => {
+    this.setState({salonTip: !this.state.salonTip});
+    this.setState({biuroTip: !this.state.biuroTip});
+    this.setState({restauracjaTip: !this.state.restauracjaTip});
+    this.setState({garderobaTip: !this.state.garderobaTip});
+    this.setState({toaletkaTip: !this.state.toaletkaTip});
+    this.setState({kurtynyTip: !this.state.kurtynyTip});
+    this.setState({lazienkiTip: !this.state.lazienkiTip});
+  console.log(this.state.salonTip)
   }
 
 
@@ -139,7 +193,16 @@ class Portfolio extends Component {
       restauracja: 'none',
       garderoba: 'none',
       toaletka: 'none',
-      kurtyny: 'none'
+      kurtyny: 'none',
+      lazienki: 'none',
+
+      salonTip: false,
+      biuroTip: false,
+      restauracjaTip: false,
+      garderobaTip: false,
+      toaletkaTip: false,
+      kurtynyTip: false,
+      lazienkiTip: false,
     })
   }
 
@@ -163,7 +226,11 @@ class Portfolio extends Component {
                 <h1>Salon</h1>
               </div>
               <div className='button-container'>
-                <button className='closingButton' onClick={this.Close}>X<i className="fas fa-4x fa-times"></i></button>
+                <FontAwesomeIcon className='fa-2x' icon='info-circle' onClick={this.ShowTip} />
+                <div className='salonTip' style={{display: this.state.salonTip? 'block' : 'none'}}><p>To jest kontener do informacji na temat projektu</p></div>
+              </div>
+              <div className='button-container'>
+                <button className='closingButton' onClick={this.Close}><FontAwesomeIcon className='fa-3x' icon='times'/></button>
               </div>
             </div>
             <div className='salon-photos-container'>
@@ -193,7 +260,11 @@ class Portfolio extends Component {
                 <h1>Biuro</h1>
               </div>
               <div className='button-container'>
-                <button className='closingButton' onClick={this.Close}>X<i className="fas fa-4x fa-times"></i></button>
+                <FontAwesomeIcon className='fa-2x' icon='info-circle' onClick={this.ShowTip} />
+                <div className='salonTip' style={{display: this.state.biuroTip? 'block' : 'none'}}><p>To jest kontener do informacji na temat projektu</p></div>
+              </div>
+              <div className='button-container'>
+                <button className='closingButton' onClick={this.Close}><FontAwesomeIcon className='fa-3x' icon='times'/></button>
               </div>
             </div>
             <div className='salon-photos-container'>
@@ -223,7 +294,11 @@ class Portfolio extends Component {
                 <h1>Restauracja</h1>
               </div>
               <div className='button-container'>
-                <button className='closingButton' onClick={this.Close}>X<i className="fas fa-4x fa-times"></i></button>
+                <FontAwesomeIcon className='fa-2x' icon='info-circle' onClick={this.ShowTip} />
+                <div className='salonTip' style={{display: this.state.restauracjaTip? 'block' : 'none'}}><p>To jest kontener do informacji na temat projektu</p></div>
+              </div>
+              <div className='button-container'>
+                <button className='closingButton' onClick={this.Close}><FontAwesomeIcon className='fa-3x' icon='times'/></button>
               </div>
             </div>
             <div className='salon-photos-container'>
@@ -253,7 +328,11 @@ class Portfolio extends Component {
                 <h1>Kurtyny</h1>
               </div>
               <div className='button-container'>
-                <button className='closingButton' onClick={this.Close}>X<i className="fas fa-4x fa-times"></i></button>
+                <FontAwesomeIcon className='fa-2x' icon='info-circle' onClick={this.ShowTip} />
+                <div className='salonTip' style={{display: this.state.kurtynyTip? 'block' : 'none'}}><p>To jest kontener do informacji na temat projektu</p></div>
+              </div>
+              <div className='button-container'>
+                <button className='closingButton' onClick={this.Close}><FontAwesomeIcon className='fa-3x' icon='times'/></button>
               </div>
             </div>
             <div className='salon-photos-container'>
@@ -283,7 +362,11 @@ class Portfolio extends Component {
                 <h1>Garderoba</h1>
               </div>
               <div className='button-container'>
-                <button className='closingButton' onClick={this.Close}>X<i className="fas fa-4x fa-times"></i></button>
+                <FontAwesomeIcon className='fa-2x' icon='info-circle' onClick={this.ShowTip} />
+                <div className='salonTip' style={{display: this.state.garderobaTip? 'block' : 'none'}}><p>To jest kontener do informacji na temat projektu</p></div>
+              </div>
+              <div className='button-container'>
+                <button className='closingButton' onClick={this.Close}><FontAwesomeIcon className='fa-3x' icon='times'/></button>
               </div>
             </div>
             <div className='salon-photos-container'>
@@ -299,19 +382,78 @@ class Portfolio extends Component {
         </div>
 
 
+        <div className='portfolo-card' onClick={this.OpenLazienki}>
+          <div className='img-effect' id='lazienki-image'>
+            <div className='portfolio-text-container-1'>
+              <h1 className='min-h1'>Łazienki</h1>
+            </div>
+          </div>
+        </div>
+        <div className='show-photos salon-photos' style={{display: this.state.lazienki}}>
+          <div className='show-photos-container'>
+            <div className ='title-container'>
+              <div className='show-photos-container-title'>
+                <h1>Łazienki</h1>
+              </div>
+              <div className='button-container'>
+                <FontAwesomeIcon className='fa-2x' icon='info-circle' onClick={this.ShowTip} />
+                <div className='salonTip' style={{display: this.state.lazienkiTip? 'block' : 'none'}}><p>To jest kontener do informacji na temat projektu</p></div>
+              </div>
+              <div className='button-container'>
+                <button className='closingButton' onClick={this.Close}><FontAwesomeIcon className='fa-3x' icon='times'/></button>
+              </div>
+            </div>
+            <div className='salon-photos-container'>
+              <div className='flex-container'>
+                {this.state.lazienki_elements.map((lazienki_element, index) => <div key={index} className='img-box-container img-effect' onClick={this.ShowModal}><img src={lazienki_element} className='container-images'/></div>)}
+              </div>
+            </div>
+          </div>
+          <div className='modal' onClick={this.ShowModal} style={{display: this.state.modal ? 'block' : 'none'}}>
+            <div style={{backgroundImage: `url(${this.state.target})`}} className='full-img'>
+            </div>
+          </div>
+        </div>
+
 
         <div className='portfolo-card' onClick={this.OpenToaletka}>
           <div className='img-effect' id='toaletka-image'>
             <div className='portfolio-text-container-1'>
-              <h1>Toaletka</h1>
+              <h1 className='min-h1'>Toaletka</h1>
             </div>
           </div>
         </div>
         <div className='show-photos salon-photos' style={{display: this.state.toaletka}}>
-          <button className='closingButton' onClick={this.Close}>Zamknij</button>
+          <div className='show-photos-container'>
+            <div className ='title-container'>
+              <div className='show-photos-container-title'>
+                <h1>Toaletka</h1>
+              </div>
+              <div className='button-container'>
+                <FontAwesomeIcon className='fa-2x' icon='info-circle' onClick={this.ShowTip} />
+                <div className='salonTip' style={{display: this.state.toaletkaTip? 'block' : 'none'}}><p>To jest kontener do informacji na temat projektu</p></div>
+              </div>
+              <div className='button-container'>
+                <button className='closingButton' onClick={this.Close}><FontAwesomeIcon className='fa-3x' icon='times'/></button>
+              </div>
+            </div>
+            <div className='salon-photos-container'>
+              <div className='flex-container'>
+                {this.state.toaletka_elements.map((toaletka_element, index) => <div key={index} className='img-box-container img-effect' onClick={this.ShowModal}><img src={toaletka_element} className='container-images'/></div>)}
+              </div>
+            </div>
+          </div>
+          <div className='modal' onClick={this.ShowModal} style={{display: this.state.modal ? 'block' : 'none'}}>
+            <div style={{backgroundImage: `url(${this.state.target})`}} className='full-img'>
+            </div>
+          </div>
         </div>
 
-        
+
+
+
+
+
       </div>
     </div>
   }

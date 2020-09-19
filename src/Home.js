@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from "react-dom";
 import './Home.scss';
 import ImgComp from './ImgComp.js'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import i1 from './images/BIURO/main-site.jpg';
 import i2 from './images/ŁAZIENKI/łazienkaZ1.jpg';
 import i3 from './images/RESTAURACJA/6-min.jpg';
@@ -63,10 +64,10 @@ class Home extends Component {
               )
             })}
             <button id='goLeft' onClick={this.goLeft}>
-              <i className="fas fa-4x fa-angle-left"></i>
+              <FontAwesomeIcon className='fa-4x' icon='angle-left' />
             </button>
             <button id='goRight' onClick={this.goRight}>
-              <i className="fas fa-4x fa-angle-right"></i>
+              <FontAwesomeIcon className='fa-4x' icon='angle-right' />
             </button>
           </div>
         </div>

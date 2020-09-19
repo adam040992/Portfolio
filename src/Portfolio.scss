@@ -98,6 +98,10 @@
   background-image: url('./images/KURTYNY/kurtyna1-min.png');
 }
 
+#lazienki-image {
+  background-image: url('./images/ŁAZIENKI/łazienkaB1.jpg');
+}
+
 .img-effect {
   background-position: center;
   background-size: cover;
@@ -175,12 +179,29 @@
 }
 
 .button-container {
+  position: relative;
   width: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
   outline: none;
 }
+
+.fa-2x {
+  cursor: pointer; 
+}
+
+.salonTip {
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  padding: 15px;
+  background-color: black;
+  transform: translate(-50%, 30%);
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
 
 .salon-photos-container {
   height: 85%;
