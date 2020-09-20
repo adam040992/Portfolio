@@ -4,6 +4,7 @@ import HomeView from './HomeView';
 import "./fontAwesome.js";
 
 class App extends Component {
+    
     render() {
         return <HomeView />
     }

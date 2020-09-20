@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Contact.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Contact extends Component {
   render() {
@@ -12,14 +13,26 @@ class Contact extends Component {
               <p>Serdecznie Zapraszam do Kontaktu</p>
             </div>
           </div>
-          <div className='contact-text-container'>
+          <div className='contact-text-container contact-text-bottom-container'>
             <div className='contact-bottom'>
-            <div>
-              <p className='contact-first-elemet left-appear'>Emal</p>
-            </div>
-            <div>
-              <p className='contact-second-element left-appear'>Tel</p>
-            </div>
+              <div className='contact-table'>
+                <div className='contact-table-email left-appear'>
+                  <FontAwesomeIcon className='fa-3x iconColor' icon={['fas', 'envelope-open']}/>
+                  <p>Email</p>
+                </div>
+                <div className='contact-table-email'>
+                  <p className='contact-first-elemet right-appear'>Natalia@gmail.com</p>
+                </div>
+              </div>
+              <div className='contact-table'>
+                <div className='contact-table-email left-appear'>
+                  <FontAwesomeIcon className='fa-3x iconColor' icon='mobile-alt'/>
+                  <p>Telefon</p>
+                </div>
+                <div className='contact-table-email'>
+                  <p className='contact-first-elemet right-appear'>123 456 789</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -7,7 +7,7 @@
 .portfolio-background {
   width: 100%;
   height: 100%;
-  background-image: url(./images/TŁO/ap2.png);
+  background-image: url(./images/TŁO/ap2.jpg);
   background-repeat: no-repeat;
   background-position: 50% 70%;
   background-size: cover;
@@ -91,7 +91,7 @@
 }
 
 #toaletka-image {
-  background-image: url('./images/TOALETKA/2.png');
+  background-image: url('./images/TOALETKA/2.jpg');
 }
 
 #kurtyny-image {
@@ -137,7 +137,7 @@
   width: 100%;
   height: 100%;
   // background-color: black;
-  background-image: url(./images/TŁO/ap2.png);
+  background-image: url(./images/TŁO/ap2.jpg);
   background-repeat: no-repeat;
   background-position: 50% 70%;
   background-size: cover;
@@ -321,14 +321,14 @@
   }
 
   .show-photos-container-title {
-    width: 60%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .button-container {
-    width: 40%;
+    width: 20%;
     position: sticky;
     display: flex;
     justify-content: center;

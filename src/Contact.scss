@@ -23,11 +23,16 @@
 
 .contact-text-container {
   width: 100%;
-  height: 50%;
+  height: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.contact-text-bottom-container {
+  height: 60%
+}
+
 
 .contact-bottom {
   width: 100%;
@@ -36,6 +41,31 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+
+.contact-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.contact-table-email {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-table-email p {
+  padding: 30px;
+}
+
+.iconColor {
+  color:  rgb(197, 161, 176);
 }
 
 #right-appear {
@@ -50,15 +80,26 @@
 }
 
 .left-appear {
-  fort-size: 20px;
+  font-size: 20px;
   position: relative;
   animation: left-into, fade-in;
   animation-duration: 2s;
 }
 
 @keyframes left-into {
-  0% { left: -500px; }
-  100% { left: 0px; }
+  0% { left: -500px }
+  100% { left: 0px }
+}
+
+.right-appear {
+  position: relative;
+  animation: right-into, fade-in;
+  animation-duration: 2s;
+}
+
+@keyframes right-into {
+  0% { right: -500px }
+  100% { right: 0px }
 }
 
 .contact-first-elemet {
@@ -70,6 +111,45 @@
 }
 
 @media screen and (max-width: 600px) {
+
+  .contact-bottom {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .contact-text-container {
+    height: 40%;
+  }
+
+  .contact-text-bottom-container {
+    height: 60%
+  }
+  
+  .contact-table {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+  }
+  
+  .contact-table-email {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-table-email p {
+    padding: 30px;
+  }
 
   .contact-about-card {
     height: 100vh;

@@ -8,8 +8,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import salon1 from './images/SALON/4b-min.jpg';
 import salon2 from './images/SALON/5A-min.jpg';
 import salon3 from './images/SALON/6A-min.jpg';
-import salon4 from './images/SALON2/3bb-min.png';
-import salon5 from './images/SALON2/7a-min.png';
+import salon4 from './images/SALON2/3bb-min.jpg';
+import salon5 from './images/SALON2/7a-min.jpg';
 
 import biuro1 from './images/BIURO/1-min.jpg';
 import biuro2 from './images/BIURO/2-min.jpg';
@@ -51,7 +51,7 @@ import lazienka5 from './images/ŁAZIENKI/łazienkaZ2.jpg';
 import lazienka6 from './images/ŁAZIENKI/łazienkaZ3.jpg';
 
 import toaletka1 from './images/TOALETKA/1.jpg';
-import toaletka2 from './images/TOALETKA/2.png';
+import toaletka2 from './images/TOALETKA/2.jpg';
 import toaletka3 from './images/TOALETKA/plansza_Piksa.jpg';
 
 class Portfolio extends Component {
@@ -65,6 +65,7 @@ class Portfolio extends Component {
       toaletka: 'none',
       kurtyny: 'none',
       lazienki: 'none',
+      meble: 'none',
 
       salonTip: false,
       biuroTip: false,
@@ -73,6 +74,17 @@ class Portfolio extends Component {
       toaletkaTip: false,
       kurtynyTip: false,
       lazienkiTip: false,
+      mebleTip: false,
+
+      meble_elements: [
+        garderoba1,
+        garderoba2,
+        garderoba3,
+        garderoba4,
+        toaletka1,
+        toaletka2,
+        toaletka3
+      ],
       
       toaletka_elements: [
         toaletka1,
@@ -168,6 +180,10 @@ class Portfolio extends Component {
     this.setState({lazienki: 'block'});
     window.scrollTo({top: 0, behavior: 'smooth'});
   }
+  OpenMeble = (e) => {
+    this.setState({meble: 'block'});
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
 
   ShowModal = (e) => {
     this.setState({modal: !this.state.modal});
@@ -182,6 +198,7 @@ class Portfolio extends Component {
     this.setState({toaletkaTip: !this.state.toaletkaTip});
     this.setState({kurtynyTip: !this.state.kurtynyTip});
     this.setState({lazienkiTip: !this.state.lazienkiTip});
+    this.setState({mebleTip: !this.state.mebleTip});
   console.log(this.state.salonTip)
   }
 
@@ -195,6 +212,7 @@ class Portfolio extends Component {
       toaletka: 'none',
       kurtyny: 'none',
       lazienki: 'none',
+      meble: 'none',
 
       salonTip: false,
       biuroTip: false,
@@ -203,6 +221,7 @@ class Portfolio extends Component {
       toaletkaTip: false,
       kurtynyTip: false,
       lazienkiTip: false,
+      mebleTip: false,
     })
   }
 
@@ -348,40 +367,6 @@ class Portfolio extends Component {
         </div>
 
 
-        <div className='portfolo-card' onClick={this.OpenGarderoba}>
-          <div className='img-effect' id='garderoba-image'>
-            <div className='portfolio-text-container-1'>
-              <h1 className='min-h1'>Garderoba</h1>
-            </div>
-          </div>
-        </div>
-        <div className='show-photos salon-photos' style={{display: this.state.garderoba}}>
-          <div className='show-photos-container'>
-            <div className ='title-container'>
-              <div className='show-photos-container-title'>
-                <h1>Garderoba</h1>
-              </div>
-              <div className='button-container'>
-                <FontAwesomeIcon className='fa-2x' icon='info-circle' onClick={this.ShowTip} />
-                <div className='salonTip' style={{display: this.state.garderobaTip? 'block' : 'none'}}><p>To jest kontener do informacji na temat projektu</p></div>
-              </div>
-              <div className='button-container'>
-                <button className='closingButton' onClick={this.Close}><FontAwesomeIcon className='fa-3x' icon='times'/></button>
-              </div>
-            </div>
-            <div className='salon-photos-container'>
-              <div className='flex-container'>
-                {this.state.garderoba_elements.map((garderoba_element, index) => <div key={index} className='img-box-container img-effect' onClick={this.ShowModal}><img src={garderoba_element} className='container-images'/></div>)}
-              </div>
-            </div>
-          </div>
-          <div className='modal' onClick={this.ShowModal} style={{display: this.state.modal ? 'block' : 'none'}}>
-            <div style={{backgroundImage: `url(${this.state.target})`}} className='full-img'>
-            </div>
-          </div>
-        </div>
-
-
         <div className='portfolo-card' onClick={this.OpenLazienki}>
           <div className='img-effect' id='lazienki-image'>
             <div className='portfolio-text-container-1'>
@@ -416,22 +401,22 @@ class Portfolio extends Component {
         </div>
 
 
-        <div className='portfolo-card' onClick={this.OpenToaletka}>
-          <div className='img-effect' id='toaletka-image'>
+        <div className='portfolo-card' onClick={this.OpenMeble}>
+          <div className='img-effect' id='garderoba-image'>
             <div className='portfolio-text-container-1'>
-              <h1 className='min-h1'>Toaletka</h1>
+              <h1 className='min-h1'>Meble</h1>
             </div>
           </div>
         </div>
-        <div className='show-photos salon-photos' style={{display: this.state.toaletka}}>
+        <div className='show-photos salon-photos' style={{display: this.state.meble}}>
           <div className='show-photos-container'>
             <div className ='title-container'>
               <div className='show-photos-container-title'>
-                <h1>Toaletka</h1>
+                <h1>Meble</h1>
               </div>
               <div className='button-container'>
                 <FontAwesomeIcon className='fa-2x' icon='info-circle' onClick={this.ShowTip} />
-                <div className='salonTip' style={{display: this.state.toaletkaTip? 'block' : 'none'}}><p>To jest kontener do informacji na temat projektu</p></div>
+                <div className='salonTip' style={{display: this.state.mebleTip? 'block' : 'none'}}><p>To jest kontener do informacji na temat projektu</p></div>
               </div>
               <div className='button-container'>
                 <button className='closingButton' onClick={this.Close}><FontAwesomeIcon className='fa-3x' icon='times'/></button>
@@ -439,7 +424,7 @@ class Portfolio extends Component {
             </div>
             <div className='salon-photos-container'>
               <div className='flex-container'>
-                {this.state.toaletka_elements.map((toaletka_element, index) => <div key={index} className='img-box-container img-effect' onClick={this.ShowModal}><img src={toaletka_element} className='container-images'/></div>)}
+                {this.state.meble_elements.map((meble_element, index) => <div key={index} className='img-box-container img-effect' onClick={this.ShowModal}><img src={meble_element} className='container-images'/></div>)}
               </div>
             </div>
           </div>
