@@ -49,6 +49,10 @@ import lazienka3 from './images/ŁAZIENKI/łazienkaB3.jpg';
 import lazienka4 from './images/ŁAZIENKI/łazienkaZ1.jpg';
 import lazienka5 from './images/ŁAZIENKI/łazienkaZ2.jpg';
 import lazienka6 from './images/ŁAZIENKI/łazienkaZ3.jpg';
+import lazienka7 from './images/ŁAZIENKI/ekspresja1-min.jpg';
+import lazienka8 from './images/ŁAZIENKI/ekspresja2-min.jpg';
+import lazienka9 from './images/ŁAZIENKI/ekspresja3-min.jpg';
+
 
 import toaletka1 from './images/TOALETKA/1.jpg';
 import toaletka2 from './images/TOALETKA/2.jpg';
@@ -85,7 +89,7 @@ class Portfolio extends Component {
         toaletka2,
         toaletka3
       ],
-      
+
       toaletka_elements: [
         toaletka1,
         toaletka2,
@@ -98,6 +102,9 @@ class Portfolio extends Component {
         lazienka4,
         lazienka5,
         lazienka6,
+        lazienka7,
+        lazienka8,
+        lazienka9,
       ],
       biuro_elements: [
         biuro1,

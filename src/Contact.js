@@ -16,18 +16,16 @@ class Contact extends Component {
           <div className='contact-text-container contact-text-bottom-container'>
             <div className='contact-bottom'>
               <div className='contact-table'>
-                <div className='contact-table-email left-appear'>
-                  <FontAwesomeIcon className='fa-3x iconColor' icon={['fas', 'envelope-open']}/>
-                  <p>Email</p>
+                <div className='contact-table-email big-screen-left left-appear'>
+                  <FontAwesomeIcon className='fa-2x iconColor' icon={['fas', 'envelope-open']}/>
                 </div>
-                <div className='contact-table-email'>
+                <div className='contact-table-email big-screen-right'>
                   <p className='contact-first-elemet right-appear'>Natalia@gmail.com</p>
                 </div>
               </div>
               <div className='contact-table'>
                 <div className='contact-table-email left-appear'>
-                  <FontAwesomeIcon className='fa-3x iconColor' icon='mobile-alt'/>
-                  <p>Telefon</p>
+                  <FontAwesomeIcon className='fa-2x iconColor' icon='mobile-alt'/>
                 </div>
                 <div className='contact-table-email'>
                   <p className='contact-first-elemet right-appear'>123 456 789</p>
