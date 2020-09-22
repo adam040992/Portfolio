@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.bd2dc5c3.chunk.css",
-    "main.js": "/Portfolio/static/js/main.bc2a2ac3.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.bc2a2ac3.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.8a2b034f.chunk.css",
+    "main.js": "/Portfolio/static/js/main.6504f0f5.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.6504f0f5.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.6c0d41e5.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.6c0d41e5.js.map",
     "static/js/2.132d5247.chunk.js": "/Portfolio/static/js/2.132d5247.chunk.js",
     "static/js/2.132d5247.chunk.js.map": "/Portfolio/static/js/2.132d5247.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.c2fe19a3176f55d768e5df10e52cb0c1.js": "/Portfolio/precache-manifest.c2fe19a3176f55d768e5df10e52cb0c1.js",
+    "precache-manifest.0f30b2b27ed2ad9e1999e44ee936d82f.js": "/Portfolio/precache-manifest.0f30b2b27ed2ad9e1999e44ee936d82f.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.bd2dc5c3.chunk.css.map": "/Portfolio/static/css/main.bd2dc5c3.chunk.css.map",
+    "static/css/main.8a2b034f.chunk.css.map": "/Portfolio/static/css/main.8a2b034f.chunk.css.map",
     "static/js/2.132d5247.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.132d5247.chunk.js.LICENSE.txt",
     "static/media/1-min.png": "/Portfolio/static/media/1-min.fc2841a4.png",
     "static/media/1-min.jpg": "/Portfolio/static/media/1-min.cae633ae.jpg",
@@ -30,6 +30,7 @@
     "static/media/7a-min.jpg": "/Portfolio/static/media/7a-min.871bb86a.jpg",
     "static/media/8-min.jpg": "/Portfolio/static/media/8-min.31c0f084.jpg",
     "static/media/9-min.jpg": "/Portfolio/static/media/9-min.7f8865af.jpg",
+    "static/media/index.css": "/Portfolio/static/media/LearningCurve_OT.7b2483da.otf",
     "static/media/HomeView.scss": "/Portfolio/static/media/KOLOR.373dcd46.png",
     "static/media/AboutMe.scss": "/Portfolio/static/media/ap2.ab8411b8.png",
     "static/media/ekspresja1-min.jpg": "/Portfolio/static/media/ekspresja1-min.0bbd6029.jpg",
@@ -53,7 +54,7 @@
   "entrypoints": [
     "static/js/runtime-main.6c0d41e5.js",
     "static/js/2.132d5247.chunk.js",
-    "static/css/main.bd2dc5c3.chunk.css",
-    "static/js/main.bc2a2ac3.chunk.js"
+    "static/css/main.8a2b034f.chunk.css",
+    "static/js/main.6504f0f5.chunk.js"
   ]
 }
