@@ -47,10 +47,10 @@
   overflow: hidden;
   // border: 1px solid black;
   animation: fade-in 1s;
-  border-radius: 25px;
-  -webkit-box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.6);
-  -moz-box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.6);
-  box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.6);
+  // border-radius: 25px;
+  -webkit-box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.3);
+  box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.3);
 }
 
 @keyframes fade-in {
@@ -119,6 +119,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.portfolio-text-container-1:hover {
+  background: none;
+  transition: 0.3s ease-out;
 }
 
 .portfolio-text-container {
@@ -188,11 +194,11 @@
 }
 
 .fa-2x {
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .salonTip {
-  position: absolute; 
+  position: absolute;
   top: 50%;
   left: 50%;
   padding: 15px;
@@ -238,13 +244,13 @@
   overflow: hidden;
   height: 300px;
   width: 300px;
-  margin: 30px;
+  margin: 20px;
   animation: fade-in 1s;
   // border: 1px solid black;
-  border-radius: 25px;
-  -webkit-box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.6);
-  -moz-box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.6);
-  box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.6);
+  // border-radius: 25px;
+  -webkit-box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.3);
+  box-shadow: 10px 10px 14px 0px rgba(0,0,0,0.3);
 }
 
 .img-box-container img {
@@ -252,6 +258,7 @@
   height: 100%;
   object-fit: cover;
   cursor: pointer;
+  border-radius: 0px;
 }
 
 .closingButton {
@@ -307,6 +314,10 @@
 
   .portfolio-background {
     height: auto;
+  }
+
+  .portfolio-text-container-1 {
+    background: none;
   }
 
   .title-container {

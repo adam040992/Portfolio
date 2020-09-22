@@ -253,7 +253,10 @@ class Portfolio extends Component {
               </div>
               <div className='button-container'>
                 <FontAwesomeIcon className='fa-2x' icon='info-circle' onClick={this.ShowTip} />
-                <div className='salonTip' style={{display: this.state.salonTip? 'block' : 'none'}}><p>To jest kontener do informacji na temat projektu</p></div>
+                <div className='salonTip' style={{display: this.state.salonTip? 'block' : 'none'}}>
+                  <p>projekt stworzony w ramach zajęć na ASP  im. E. Gepperta we Wrocławiu pod okiem mgr Arch. inż. Aleksandra Przybyły</p>
+                  <p>semestr IV | 2020</p>
+                </div>
               </div>
               <div className='button-container'>
                 <button className='closingButton' onClick={this.Close}><FontAwesomeIcon className='fa-3x' icon='times'/></button>
@@ -287,7 +290,10 @@ class Portfolio extends Component {
               </div>
               <div className='button-container'>
                 <FontAwesomeIcon className='fa-2x' icon='info-circle' onClick={this.ShowTip} />
-                <div className='salonTip' style={{display: this.state.biuroTip? 'block' : 'none'}}><p>To jest kontener do informacji na temat projektu</p></div>
+                <div className='salonTip' style={{display: this.state.biuroTip? 'block' : 'none'}}>
+                  <p>projekt stworzony w ramach zajęć na ASP  im. E. Gepperta we Wrocławiu pod okiem dr. Hab. Jacka Krzysztofa Żurka</p>
+                  <p>semestr IV | 2020</p>
+                </div>
               </div>
               <div className='button-container'>
                 <button className='closingButton' onClick={this.Close}><FontAwesomeIcon className='fa-3x' icon='times'/></button>
@@ -321,7 +327,10 @@ class Portfolio extends Component {
               </div>
               <div className='button-container'>
                 <FontAwesomeIcon className='fa-2x' icon='info-circle' onClick={this.ShowTip} />
-                <div className='salonTip' style={{display: this.state.restauracjaTip? 'block' : 'none'}}><p>To jest kontener do informacji na temat projektu</p></div>
+                <div className='salonTip' style={{display: this.state.restauracjaTip? 'block' : 'none'}}>
+                  <p>projekt stworzony w ramach zajęć na ASP  im. E. Gepperta we Wrocławiu pod okiem dr. Hab. Jacka Krzysztofa Żurka</p>
+                  <p>semestr III | 2020</p>
+                </div>
               </div>
               <div className='button-container'>
                 <button className='closingButton' onClick={this.Close}><FontAwesomeIcon className='fa-3x' icon='times'/></button>
@@ -355,7 +364,9 @@ class Portfolio extends Component {
               </div>
               <div className='button-container'>
                 <FontAwesomeIcon className='fa-2x' icon='info-circle' onClick={this.ShowTip} />
-                <div className='salonTip' style={{display: this.state.kurtynyTip? 'block' : 'none'}}><p>To jest kontener do informacji na temat projektu</p></div>
+                <div className='salonTip' style={{display: this.state.kurtynyTip? 'block' : 'none'}}>
+                  <p>projekt stworzony na konkurs na kurtyny zamgławiające w Oławie. Dwa z trzech projektów zostały nagrodzone I miejscem oraz wyróżnieniem.</p>
+                </div>
               </div>
               <div className='button-container'>
                 <button className='closingButton' onClick={this.Close}><FontAwesomeIcon className='fa-3x' icon='times'/></button>
@@ -389,7 +400,10 @@ class Portfolio extends Component {
               </div>
               <div className='button-container'>
                 <FontAwesomeIcon className='fa-2x' icon='info-circle' onClick={this.ShowTip} />
-                <div className='salonTip' style={{display: this.state.lazienkiTip? 'block' : 'none'}}><p>To jest kontener do informacji na temat projektu</p></div>
+                <div className='salonTip' style={{display: this.state.lazienkiTip? 'block' : 'none'}}>
+                  <p>Projekt Własny</p>
+                  <p>Rok 2020</p>
+                </div>
               </div>
               <div className='button-container'>
                 <button className='closingButton' onClick={this.Close}><FontAwesomeIcon className='fa-3x' icon='times'/></button>
@@ -423,7 +437,10 @@ class Portfolio extends Component {
               </div>
               <div className='button-container'>
                 <FontAwesomeIcon className='fa-2x' icon='info-circle' onClick={this.ShowTip} />
-                <div className='salonTip' style={{display: this.state.mebleTip? 'block' : 'none'}}><p>To jest kontener do informacji na temat projektu</p></div>
+                <div className='salonTip' style={{display: this.state.mebleTip? 'block' : 'none'}}>
+                  <p>projekty stworzony w ramach zajęć na ASP  im. E. Gepperta we Wrocławiu pod okiem mgr Magdaleny Kasprzycy</p>
+                  <p>sem II i III | 2019/2020</p>
+                </div>
               </div>
               <div className='button-container'>
                 <button className='closingButton' onClick={this.Close}><FontAwesomeIcon className='fa-3x' icon='times'/></button>
