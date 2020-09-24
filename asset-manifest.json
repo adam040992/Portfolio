@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1898b98c.chunk.css",
-    "main.js": "/Portfolio/static/js/main.a3976cb3.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.a3976cb3.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.b48acf66.chunk.css",
+    "main.js": "/Portfolio/static/js/main.7003a6ad.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.7003a6ad.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.6c0d41e5.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.6c0d41e5.js.map",
     "static/js/2.132d5247.chunk.js": "/Portfolio/static/js/2.132d5247.chunk.js",
     "static/js/2.132d5247.chunk.js.map": "/Portfolio/static/js/2.132d5247.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.bd9ba8a9ae9b4e46679c1a1fa6a962e0.js": "/Portfolio/precache-manifest.bd9ba8a9ae9b4e46679c1a1fa6a962e0.js",
+    "precache-manifest.d98be662f94d080ca78dc4445ddad4fb.js": "/Portfolio/precache-manifest.d98be662f94d080ca78dc4445ddad4fb.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.1898b98c.chunk.css.map": "/Portfolio/static/css/main.1898b98c.chunk.css.map",
+    "static/css/main.b48acf66.chunk.css.map": "/Portfolio/static/css/main.b48acf66.chunk.css.map",
     "static/js/2.132d5247.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.132d5247.chunk.js.LICENSE.txt",
     "static/media/1-min.png": "/Portfolio/static/media/1-min.fc2841a4.png",
     "static/media/1-min.jpg": "/Portfolio/static/media/1-min.cae633ae.jpg",
@@ -49,12 +49,13 @@
     "static/media/łazienkaB3.jpg": "/Portfolio/static/media/łazienkaB3.9b802569.jpg",
     "static/media/łazienkaZ1.jpg": "/Portfolio/static/media/łazienkaZ1.3e500fcc.jpg",
     "static/media/łazienkaZ2.jpg": "/Portfolio/static/media/łazienkaZ2.be92c580.jpg",
-    "static/media/łazienkaZ3.jpg": "/Portfolio/static/media/łazienkaZ3.2a9a0e78.jpg"
+    "static/media/łazienkaZ3.jpg": "/Portfolio/static/media/łazienkaZ3.2a9a0e78.jpg",
+    "static/media/Contact.scss": "/Portfolio/static/media/łazienkaZ3a.e398169e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6c0d41e5.js",
     "static/js/2.132d5247.chunk.js",
-    "static/css/main.1898b98c.chunk.css",
-    "static/js/main.a3976cb3.chunk.js"
+    "static/css/main.b48acf66.chunk.css",
+    "static/js/main.7003a6ad.chunk.js"
   ]
 }

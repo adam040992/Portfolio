@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "09a330a030e8cc602573017d26e5ecf0",
+    "revision": "7b49fda8015a4710cc56ef11ba134a9f",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "30548637ab4d7423f47e",
-    "url": "/Portfolio/static/css/main.1898b98c.chunk.css"
+    "revision": "f110831f13d6e2201f4a",
+    "url": "/Portfolio/static/css/main.b48acf66.chunk.css"
   },
   {
     "revision": "0b314e8fa2b78fcdc437",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.132d5247.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "30548637ab4d7423f47e",
-    "url": "/Portfolio/static/js/main.a3976cb3.chunk.js"
+    "revision": "f110831f13d6e2201f4a",
+    "url": "/Portfolio/static/js/main.7003a6ad.chunk.js"
   },
   {
     "revision": "23ff405d518e183fcdd1",
@@ -230,5 +230,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2a9a0e7804885e3129729d99ca303ccb",
     "url": "/Portfolio/static/media/łazienkaZ3.2a9a0e78.jpg"
+  },
+  {
+    "revision": "e398169ec05def9b0f36236b463ce95b",
+    "url": "/Portfolio/static/media/łazienkaZ3a.e398169e.jpg"
   }
 ]);
