@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.8a2b034f.chunk.css",
-    "main.js": "/Portfolio/static/js/main.6504f0f5.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.6504f0f5.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.1898b98c.chunk.css",
+    "main.js": "/Portfolio/static/js/main.a3976cb3.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.a3976cb3.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.6c0d41e5.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.6c0d41e5.js.map",
     "static/js/2.132d5247.chunk.js": "/Portfolio/static/js/2.132d5247.chunk.js",
     "static/js/2.132d5247.chunk.js.map": "/Portfolio/static/js/2.132d5247.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.0f30b2b27ed2ad9e1999e44ee936d82f.js": "/Portfolio/precache-manifest.0f30b2b27ed2ad9e1999e44ee936d82f.js",
+    "precache-manifest.bd9ba8a9ae9b4e46679c1a1fa6a962e0.js": "/Portfolio/precache-manifest.bd9ba8a9ae9b4e46679c1a1fa6a962e0.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.8a2b034f.chunk.css.map": "/Portfolio/static/css/main.8a2b034f.chunk.css.map",
+    "static/css/main.1898b98c.chunk.css.map": "/Portfolio/static/css/main.1898b98c.chunk.css.map",
     "static/js/2.132d5247.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.132d5247.chunk.js.LICENSE.txt",
     "static/media/1-min.png": "/Portfolio/static/media/1-min.fc2841a4.png",
     "static/media/1-min.jpg": "/Portfolio/static/media/1-min.cae633ae.jpg",
@@ -20,7 +20,7 @@
     "static/media/2-min.jpg": "/Portfolio/static/media/2-min.26fed02a.jpg",
     "static/media/Portfolio.scss": "/Portfolio/static/media/łazienkaB1.4aa559a8.jpg",
     "static/media/3-min.jpg": "/Portfolio/static/media/3-min.de815dcf.jpg",
-    "static/media/3bb-min.jpg": "/Portfolio/static/media/3bb-min.aecd8994.jpg",
+    "static/media/3bb-min-new.jpg": "/Portfolio/static/media/3bb-min-new.033b227d.jpg",
     "static/media/4-min.jpg": "/Portfolio/static/media/4-min.df5827e4.jpg",
     "static/media/4b-min.jpg": "/Portfolio/static/media/4b-min.32e71c45.jpg",
     "static/media/5-min.jpg": "/Portfolio/static/media/5-min.8d09ea27.jpg",
@@ -54,7 +54,7 @@
   "entrypoints": [
     "static/js/runtime-main.6c0d41e5.js",
     "static/js/2.132d5247.chunk.js",
-    "static/css/main.8a2b034f.chunk.css",
-    "static/js/main.6504f0f5.chunk.js"
+    "static/css/main.1898b98c.chunk.css",
+    "static/js/main.a3976cb3.chunk.js"
   ]
 }
