@@ -9,15 +9,27 @@ import i3 from './images/RESTAURACJA/6-min.jpg';
 import i4 from './images/ŁAZIENKI/łazienkaB1.jpg';
 
 const text1 = {
-  text: 'Przykładowy text na slajda',
-  top: 5,
-  left: 5
+  text: 'jakość...',
+  top: 23,
+  left: 19
 }
 
 const text2 = {
-  text: 'Kolejny text kolejny slide',
+  text: 'natura...',
   top: 90,
   left: 60
+}
+
+const text3 = {
+  text: 'design...',
+  top: 92,
+  left: 48
+}
+
+const text4 = {
+  text: 'ponadczasowość...',
+  top: 65,
+  left: 10
 }
 
 class Home extends Component {
@@ -27,8 +39,8 @@ class Home extends Component {
       sliderArr: [
         <ImgComp src={i1} text={text1.text} top={text1.top} left={text1.left} />,
         <ImgComp src={i2} text={text2.text} top={text2.top} left={text2.left} />,
-        <ImgComp src={i3} />,
-        <ImgComp src={i4} />],
+        <ImgComp src={i3} text={text3.text} top={text3.top} left={text3.left} />,
+        <ImgComp src={i4} text={text4.text} top={text4.top} left={text4.left} />],
       x: 0
     }
   }

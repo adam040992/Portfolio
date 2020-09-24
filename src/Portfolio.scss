@@ -64,9 +64,11 @@
 
 .min-h1 {
   color: white;
-  background-color: black;
+  // background-color: black;
   padding: 10px;
-  border-radius: 20px;
+  letter-spacing: 5px;
+  font-size: 25px;
+  // border-radius: 20px;
 }
 
 .container-images {
@@ -180,27 +182,40 @@
 .show-photos-container-title {
   width: 80%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  padding-left: 150px;
+}
+
+.show-photos-container-title h1 {
+  letter-spacing: 5px;
+  font-size: 25px;
+  color: rgb(197, 161, 176);
 }
 
 .button-container {
   position: relative;
-  width: 20%;
+  width: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
   outline: none;
 }
 
-.fa-2x {
+.fa-2x, .fa-3x {
   cursor: pointer;
+  color: rgb(197, 161, 176);
+}
+
+.fa-2x:hover, .fa-3x:hover {
+  color: white;
 }
 
 .salonTip {
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 20rem;
   padding: 15px;
   background-color: black;
   transform: translate(-50%, 30%);
@@ -336,6 +351,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 0px;
   }
 
   .button-container {
@@ -356,5 +372,17 @@
 
   .closingButton {
     color: white;
+  }
+
+  .salonTip {
+    position: absolute;
+    top: 50%;
+    left: -100%;
+    width: 20rem;
+    padding: 15px;
+    background-color: black;
+    transform: translate(-50%, 30%);
+    border: 1px solid black;
+    border-radius: 25px;
   }
 }

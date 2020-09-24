@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Caviar Dreams';
+  src: local('Caviar Dreams'), url(./fonts/caviar_dreams/CaviarDreams.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Learning Curve Pro';
+  src: local('Learning Curve Pro'), url(./fonts/learning_curve_pro/Learning_Curve_Pro/LearningCurve_OT.otf) format('opentype');
+}
