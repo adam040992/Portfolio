@@ -10,11 +10,11 @@ class AboutMe extends Component {
         <div className='about-card'>
           <div className='about-text-container'>
             <div className='text-appear'>
-              <p>Jestem studentką II roku Architektury Wnętrz na Akademii Sztuk Pięknych im. E. Gepperta we Wrocławiu. Projetuję i tworzę z ogromną pasją i zaangarzowaniem. Inpiruje i motywuje mnie do działania ciągła chęć pogłębiania swojej wiedzy, ciekawość odnośnie nowych rozwiązań i technologii - dzięki temu mój umysł jest otwarty na nowe pomysły i innowacyjne rozwiązania projektowe.</p>
+              <p>Jestem studentką III roku Architektury Wnętrz na Akademii Sztuk Pięknych im. E. Gepperta we Wrocławiu. Projektuję i tworzę z ogromną pasją i&nbsp;zaangażowaniem. Inspiruje i motywuje mnie do działania ciągła chęć pogłębiania swojej wiedzy, ciekawość odnośnie nowych rozwiązań i&nbsp;technologii - dzięki temu mój umysł jest otwarty na nowe pomysły i innowacyjne rozwiązania projektowe.</p>
               <br />
               <br />
               <br />
-              <p>Jeśli masz jakiekolwiek pytania bądź jesteś zaineterowany spółpracą - zapraszam do kontaktu.</p>
+              <p>Jeśli masz jakiekolwiek pytania bądź jesteś zainteresowany współpracą - zapraszam do kontaktu.</p>
               <br />
               <br />
               <br />
